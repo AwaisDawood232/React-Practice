@@ -1,8 +1,10 @@
 /* ImageRatingComponent.css */
 
-.content-rating {
+.content_rating {
     text-align: center;
     margin-bottom: 20px;
+    margin: auto;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,12 +18,12 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   
-  .rating-buttons {
+  .rating-button {
     margin-top: 10px;
   }
   
-  .like-button,
-  .dislike-button {
+  .like_button,
+  .dislike_button {
     padding: 10px 20px;
     margin: 0 10px;
     font-size: 16px;
